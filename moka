@@ -1,0 +1,19 @@
+blepha_final <- read.table("~/MEGA/Doctorado/Semetre 7/Seminario VII/blepha_final.nex", quote="\"")
+distribucion_ble <- read.csv("~/MEGA/Doctorado/Semetre 7/Seminario VII/distribucion_ble.csv")
+
+library(ape)
+library(maps)
+library(phytools)
+library(mapdata)
+
+
+data <- read.csv("distribucion_ble.csv")[,1:3]
+row.names(data) <- data$spp
+data$spp  <- NULL
+
+tree <- read.nexus("blepha_final.nex")
+
+tree$tip.label
+data$spp
+obj<-phylo.to.map(tree,data, plot=FALSE)
+plot(obj,ftype="i")
