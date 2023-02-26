@@ -24,6 +24,8 @@ ggplot() +
 tree <- read.nexus("blepha_final2.nex")
 tree <- drop.tip(tree, "OUTGROUP")
 tree <- drop.tip(tree, "COL020_spn_ranulfoi")
+tree <- drop.tip(tree, "femoralis")
+
 
 ##Revisar que los datos del arbol y el set de datos coincidan
 #Debe decir Ok
