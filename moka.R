@@ -1,3 +1,7 @@
+blepha_final2 <- read.table("~/MEGA/Doctorado/Semetre 7/Seminario VII/blepha_final2.nex", sep=";", quote="\"")
+distribucion_ble2 <- read.csv("~/MEGA/Doctorado/Semetre 7/Seminario VII/distribucion_ble2.csv")
+
+
 library(ape)
 library(maps)
 library(phytools)
