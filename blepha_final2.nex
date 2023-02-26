@@ -1,0 +1,4 @@
+#NEXUS
+begin trees;
+	tree tagged_tree = [&R] (OUTGROUP:13.0,(rupta:12.0,(MEX035_spn_isabelae:11.0,(MEX008_nr_splendida:10.0,(MEX034_spn_xalapensis:9.0,(MEX003_nr_ruptafascia:8.0,COL020_spn_ranulfoi:8.0,MEX039_spn_dzuli:8.0,(MEX006_diva:1.0,MEX026_poecilosoma:1.0):7.0,(cyclantherae:7.0,MEX024_io:7.0,MEX025_mexicana:7.0,MEX027_quadristriata:7.0,(variabilis:1.0,MEX017_spn_alleni:1.0):6.0,(MEX023_femoralis:6.0,((femoralis:4.0,(MEX009_splendida:3.0,(MEX010_punctistigma:2.0,(aspiculosa:1.0,MEX021_spn_martyae:1.0):1.0):1.0):1.0):1.0,(biseriata:4.0,(osmundsonae:3.0,(MEX001_nr_biseriata:2.0,(regina:1.0,MEX002_spn_zapoteca:1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0);
+end;
